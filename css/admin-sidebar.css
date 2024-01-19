@@ -1,0 +1,81 @@
+/*:: ADMIN EDITOR ::*/
+/*******************************************************/
+/*:: VARIABLES ::*/
+/*******************************************************/
+/*:: COLORS ::*/
+/*:: BREAKPOINTS ::*/
+#imera_title_style .title-style {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+#imera_title_style .title-style .style-color-1, #imera_title_style .title-style .style-color-2, #imera_title_style .title-style .style-color-3 {
+  height: 64px;
+  width: 64px;
+}
+#imera_title_style .title-style-default {
+  display: none;
+}
+#imera_title_style .title-style-A .style-color-1 {
+  background-color: #EF91B8;
+}
+#imera_title_style .title-style-A .style-color-2 {
+  background-color: #F4D300;
+}
+#imera_title_style .title-style-A .style-color-3 path {
+  fill: #E7476C;
+}
+#imera_title_style .title-style-B .style-color-1 {
+  background-color: #003C8F;
+}
+#imera_title_style .title-style-B .style-color-2 {
+  background-color: #98327F;
+}
+#imera_title_style .title-style-B .style-color-3 path {
+  fill: #E85811;
+}
+#imera_title_style .title-style-C .style-color-1 {
+  background-color: #F4D300;
+}
+#imera_title_style .title-style-C .style-color-2 {
+  background-color: #86CFE5;
+}
+#imera_title_style .title-style-C .style-color-3 path {
+  fill: #E85811;
+}
+#imera_title_style .title-style-D .style-color-1 {
+  background-color: #98327F;
+}
+#imera_title_style .title-style-D .style-color-2 {
+  background-color: #2E4929;
+}
+#imera_title_style .title-style-D .style-color-3 path {
+  fill: #EF91B8;
+}
+#imera_title_style .title-style-E .style-color-1 {
+  background-color: #F4D300;
+}
+#imera_title_style .title-style-E .style-color-2 {
+  background-color: #86CFE5;
+}
+#imera_title_style .title-style-E .style-color-3 path {
+  fill: #49356D;
+}
+#imera_title_style .title-style-F .style-color-1 {
+  background-color: #86CFE5;
+}
+#imera_title_style .title-style-F .style-color-2 {
+  background-color: #E2381E;
+}
+#imera_title_style .title-style-F .style-color-3 path {
+  fill: #EF91B8;
+}
+#imera_title_style .title-style-G .style-color-1 {
+  background-color: #009F2F;
+}
+#imera_title_style .title-style-G .style-color-2 {
+  background-color: #E2381E;
+}
+#imera_title_style .title-style-G .style-color-3 path {
+  fill: #003C8F;
+}

@@ -1,0 +1,233 @@
+/*:: FOOTER ::*/
+/*******************************************************/
+
+@mixin social-butons-appearance {
+	border: .0625rem solid $color-black;
+	cursor: pointer;
+	margin: 8px;
+	height: 40px;
+	width: 40px;
+}
+
+#footer {
+	padding: .625rem 0;
+	a {
+		text-decoration: none;
+	}
+
+	.global-footer {
+		//@extend .global-page;
+		max-width: 100%;
+		padding: 0;
+
+		/**
+		* Social networks and newsletter section
+		*/
+		.social-networks {
+			display: grid;
+			grid-template-columns: repeat(2, 50%);
+			grid-template-rows: repeat(1, 1fr);
+
+			max-width: 1440px;
+			margin: 0 auto;
+
+			@media (max-width: $width-medium) {
+				grid-template-columns: repeat(1, 100%);
+				grid-template-rows: repeat(2, 1fr);
+				margin: auto;
+
+				div.register-newsletter {
+					border-left: 0rem;
+					border-top: .0625rem solid $color-black;
+				}
+
+				div.follow-us, div.register-newsletter {
+					max-width: 100%;
+				}
+			}
+
+			.follow-us, .register-newsletter {
+				display: grid;
+				grid-template-columns: repeat(2, 1fr);
+				grid-template-rows: repeat(1, 1fr);
+				height: 150px;
+				padding: 16px 2rem;
+			}
+
+			.follow-us {
+				.follow-us-text {
+					font-weight: 500;
+					font-size: 32px;
+					align-self: center;
+					@media (max-width: $width-large) {
+						font-size: 24px;
+					}
+				}
+
+				.footer-social-butons {
+					display: grid;
+					grid-template-columns: repeat(3, 0fr);
+					grid-template-rows: repeat(1, 1fr);
+					grid-column-start: 2;
+					align-self: center;
+					justify-items: center;
+					justify-self: end;
+					@media (min-width: $width-medium) {
+						padding-right: 2rem;
+					}
+				}
+
+				.footer-linkedin, .footer-twitter, .footer-youtube, .footer-facebook {
+					@include social-butons-appearance();
+				}
+			}
+
+			.register-newsletter {
+				border-left: .0625rem solid $color-black;
+				grid-template-columns: auto 1fr;
+				grid-template-rows: repeat(1, 1fr);
+				
+				@media (max-width: $width-medium) {
+					grid-row-start: 2;
+				}
+
+				.register-newsletter-text {
+					font-weight: 500;
+					font-size: 32px;
+					align-self: center;
+					padding-left: 1rem;
+					@media (max-width: $width-large) {
+						font-size: 24px;
+					}
+				}
+
+				.footer-newsletter {
+					align-self: center;
+					grid-column-start: 2;
+					justify-self: end;
+					@include social-butons-appearance();
+					margin: 0;
+				}
+			}
+
+			span[class^="icon-"] {
+				display: block;
+				margin: 11.2px;
+			}
+
+			span.icon-youtube {
+				margin-left: 8px;
+				margin-right: 8px;
+			}
+		}
+
+		/**
+		* Logo, adress and menus section
+		*/
+		.footer-nav {
+			//@include page-width();
+
+			align-items: flex-start;
+			display: flex;
+			max-width: $width-wide;
+			padding: 64px 2rem 56px;
+			margin: 0 auto;
+
+			@media (max-width: $width-medium) {
+				flex-direction: column;
+				.footer-menu1, .footer-menu2 {
+					display: none;
+				}
+			}
+
+			.footer-informations {
+				@media (min-width: $width-medium) {
+					max-width: 40%;
+					min-width: 20%;
+				}
+				@media (max-width: $width-medium) {
+					margin-left: 1rem;
+					margin-top: 2rem;
+				}
+				width: 100%;
+				.footer-location {
+					.location-title {
+						font-size: 32px;
+						font-weight: 500;
+						max-width: 20rem;
+					}
+					.location-address {
+						white-space: pre-line;
+					}
+				}
+
+				.footer-itinerary {
+					display: flex;
+					flex-direction: row;
+
+					.footer-itinerary-text {
+						line-height: 55px;
+					}
+
+					.footer-itinerary-link {
+						@include social-butons-appearance();
+						.icon-chevron-next {
+							display: block;
+							margin: 11.2px;
+						}
+					}
+				}
+			}
+
+			nav {
+				margin-bottom: 16px;
+				margin-left: 16px;
+				margin-right: 32px;
+				margin-top: 16px;
+
+				.menu-item {
+					margin-bottom: 32px;
+				}
+
+				.sub-menu {
+					display: none
+				}
+			}
+		}
+
+		/**
+		* Copyright section
+		*/
+		.copyright {
+			margin: 0 auto;
+			max-width: $width-wide;
+			padding: 16px 2rem;
+			position: relative;
+			display: flex;
+			
+			.back-top {
+				position: absolute;
+				right: 0;
+			}
+			@media (max-width: $width-medium) {
+				.copyright-text {
+					margin-top: 3rem;
+					margin-left: .5rem;
+				}
+				.back-top {
+					right: auto;
+					left: 0;
+					top: 0;
+					margin: 1.5rem;
+				}
+			}
+		}
+
+		/*
+		* Top borders
+		*/
+		.social-networks-container, .footer-nav-container, .copyright-container {
+			border-top: .0625rem solid $color-black;
+		}
+	}
+}

@@ -1,0 +1,13 @@
+{
+    "name": "acf/post-info",
+    "title": "Auteur & horaire",
+    "description": "Auteur-trice de l'article et information de publication",
+    "category": "formatting",
+    "icon": "admin-plugins",
+    "keywords": ["auteur", "autrice", "horaire", "post", "publication", "article", "information"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "inc/acf-blocks/post-infos/post-info.php"
+    },
+    "align": "full"
+}

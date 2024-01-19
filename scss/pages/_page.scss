@@ -1,0 +1,380 @@
+/*:: PAGES ::*/
+/*******************************************************/
+
+.page-header, .archive-header, .home-header {
+    // margin-bottom: 5rem;
+
+    /**
+    * Fil d'arianne breadcrumb
+    */
+    nav[aria-label="Fil d'Ariane"], nav[aria-label="breadcrumb"] {
+        border-bottom: 1px solid $color-black;
+        .breadcrumb {
+            font-size: 0.875em;
+            padding-bottom: 1.25rem;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            padding-top: 1.25rem;
+            max-width: $width-wide;
+            margin: 0 auto;
+            .breadcrumb-item.active {
+                color: $color-gray;
+            }
+
+            @media( min-width: $width-medium ) {
+                padding-left: 2rem;
+                padding-right: 2rem;
+            }
+        }
+        a {
+            text-decoration: none;
+        }
+    }
+
+    .page-title {
+        align-items: flex-start;
+        display: flex;
+        flex-direction: row;
+        margin: 0 auto;
+        max-width: $width-wide;
+        position: relative;
+        min-height: 360px;
+        @media (max-width: $width-medium) {
+            display: grid;
+            height: auto;
+            grid-template-columns: repeat(2, 50%);
+            grid-template-rows: repeat(2, 1fr);
+            min-height: 0px;
+        }
+        &.has-title-style h1 {
+            // width: calc(50% - 30px);
+            @media (min-width: $width-medium) {
+                position: relative;
+            }
+            @media (max-width: $width-medium) {
+                grid-column-start: 1;
+                grid-column-end: 2;
+                grid-row-start: 1;
+                grid-row-end: 1;
+            }
+        }
+
+        .halfwidth {
+            width: 50%;
+        }
+
+        .title-scrolling {
+            padding: 2em 0;
+            min-height: 400px;
+            display: flex;
+            align-items: center;
+        }
+
+        .title-section-one {
+            @media (min-width: $width-medium) {
+                right: 0;
+                position: absolute;
+            }
+        }
+
+        .title-section-two {
+            @media (min-width: $width-medium) {
+                right: 25%;
+                position: absolute;
+            }
+        }
+
+        .title-section-one, .title-section-two {
+            flex-grow: 1;
+            height: 400px;
+            width: 25%;
+            overflow: hidden;
+            svg {
+                height: 100%;
+                width: auto;
+            }
+        }
+
+        @media (max-width: $width-medium) {
+            .title-section-one, .title-section-two {
+                height: 275px;
+                width: initial;
+            }
+
+            .title-section-one {
+                grid-row-start: 2;
+                grid-column-start: 1;
+            }
+            .title-section-two {
+                grid-row-start: 2;
+                grid-column-start: 2;
+            }
+        }
+
+        h1 {
+            flex-grow: 2;
+            overflow-x: visible;
+            //white-space: pre;
+        }
+
+        .title-section-one {
+
+            &.title-style-A {
+                background-color: $color-pink;
+            }
+            &.title-style-B {
+                background-color: $color-blue;
+            }
+            &.title-style-C {
+                background-color: $color-yellow;
+            }
+            &.title-style-D {
+                background-color: $color-purple;
+            }
+            &.title-style-E {
+                background-color: $color-yellow;
+            }
+            &.title-style-F {
+                background-color: $color-pink;
+            }
+            &.title-style-G {
+                background-color: #009F2F;
+            }
+        }
+        .title-section-two {
+            &.title-style-A {
+                background-color: $color-yellow;
+                path {
+                    fill: #E7476C;
+                }
+            }
+            &.title-style-B {
+                background-color: $color-purple;
+                path {
+                    fill: $color-orange;
+                }
+            }
+            &.title-style-C {
+                background-color: $color-cyan;
+                path {
+                    fill: $color-orange;
+                }
+            }
+            &.title-style-D {
+                background-color: #2E4929;
+                path {
+                    fill: $color-pink;
+                }
+            }
+            &.title-style-E {
+                background-color: $color-cyan;
+                path {
+                    fill: #49356D;
+                }
+            }
+            &.title-style-F {
+                background-color: $color-cyan;
+                path {
+                    fill: $color-dark-orange;
+                }
+            }
+            &.title-style-G {
+                background-color: $color-dark-orange;
+                path {
+                    fill: $color-blue;
+                }
+            }
+        }
+    }
+}
+
+.archive-header {
+    padding-bottom: 140px;
+    .archive-description {
+        max-width: 680px;
+        margin: 0 auto;
+        padding-top: 4rem;
+        text-align: center;
+    }
+}
+
+.single-agenda, .single-post, .single-alumnis, .single-residents {
+    main .global-page {
+        max-width: $width-wide;
+        p, h4, h5, h6 {
+            margin: 0 auto;
+            max-width: 680px;
+        }
+
+        .wp-block-columns {
+            p, h4, h5, h6 {
+                max-width: 100%;
+            }
+        }
+
+        h3 {
+            margin-bottom: 16px;
+            max-width: 680px;
+        }
+
+        ul {
+            padding-left: 2rem;
+            line-height: 28px;
+            list-style: disc;
+        }
+        
+        .entry-content .addtoany_shortcode {
+            display: flex;
+            justify-content: center;
+            padding-bottom: 4rem;
+        
+            .addtoany_list a {
+                border: 1px solid black;
+                height: 48px;
+                margin: 4px;
+                padding: 7px;
+                width: 48px;
+                &:hover {
+                    border: 1px solid $color-gray;
+                }
+            }
+        
+            .a2a_svg {
+                background-color: transparent !important;
+                path {
+                    fill: $color-black;
+                }
+            } 
+        }
+    }
+}
+
+@mixin featured-size {
+    padding: 170px 140px;
+    > img {
+        width: 380px;
+        height: 520px;
+        object-fit: cover;
+        aspect-ratio: 3/4;
+    }
+
+    @media (max-width: $width-medium) {
+        margin-left: -15px;
+        padding: 82px 58px;
+        width: 100vw;
+        > img {
+            width: 100%;
+            height: initial;
+            object-fit: cover;
+        }
+    }
+}
+
+.entry-content {
+    > :first-child {
+        margin-top: 4rem;
+    }
+}
+
+.single-alumni, .single-residents {
+    .entry-content {
+        max-width: $width-wide;
+        padding-top: 0;
+
+        &.small {
+            max-width: 680px;
+        }
+
+        > :first-child {
+            margin-top: 0;
+        }
+
+        .wp-block-columns > .wp-block-column > .wp-block-group {
+            padding: 2rem;
+        }
+
+        .wp-block-post-featured-image img {
+            aspect-ratio: 1;
+            object-fit: cover;
+        }
+
+        &.featured-style-A .wp-block-post-featured-image {
+            background-color: $color-yellow;
+            @include featured-size();
+        }
+        &.featured-style-B .wp-block-post-featured-image {
+            background-color: $color-purple;
+            @include featured-size();
+        }
+        &.featured-style-C .wp-block-post-featured-image {
+            background-color: $color-cyan;
+            @include featured-size();
+        }
+        &.featured-style-D .wp-block-post-featured-image {
+            background-color: #2E4929;
+            @include featured-size();
+        }
+        &.featured-style-E .wp-block-post-featured-image {
+            background-color: $color-cyan;
+            @include featured-size();
+        }
+        &.featured-style-F .wp-block-post-featured-image {
+            background-color: $color-cyan;
+            @include featured-size();
+        }
+        &.featured-style-G .wp-block-post-featured-image {
+            background-color: $color-dark-orange;
+            @include featured-size();
+        }
+    }
+}
+
+.alumni-cv-button {
+    border-bottom: 1px solid $color-black;
+    border-top: 1px solid $color-black;
+    height: 80px;
+    padding-top: 1.25rem;
+
+    & > a {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        font-size: 32px;
+        font-weight: 500;
+        line-height: 35px;
+        position: relative;
+        width: 100%;
+
+        .icon-arrow-down {
+            border: solid 1px black;
+            padding: 16px;
+            position: absolute;
+            right: 0px;
+            font-size: initial;
+        }
+    }
+}
+
+.related {
+
+    &.related-single {
+        & > h2 {
+            margin-left: 2rem;
+            margin-right: 2rem;
+            margin-top: 1rem;
+        }
+    }
+
+    &.related-events {
+        & > h2 {
+            padding-bottom: initial;
+            border-bottom: none;
+            &::after {
+                background: none;
+                margin: 0;
+            }
+        }
+    }
+
+}
+

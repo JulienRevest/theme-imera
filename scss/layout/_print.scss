@@ -1,0 +1,150 @@
+/*:: PRINT ::*/
+/*******************************************************/
+
+@media print {
+	
+	html body {
+		font-size: 12px;
+		
+		.noprint {
+			display: none;
+		}	
+
+		input[type="radio"] {
+			-webkit-appearance: radio; 
+			-moz-appearance: radio;
+			appearance: radio;			
+		}
+		input[type="checkbox"] {
+			-webkit-appearance: checkbox; 
+			-moz-appearance: checkbox;
+			appearance: checkbox;
+		}
+
+		.header-navigation, .open-search, .menu-mobile {
+			display: none;
+		}
+
+		#header, .admin-bar #header {
+			&.sticky {
+				display: none;
+				position: relative;
+			}
+		}
+
+		.page-header, .archive-header {
+			.page-title {
+				display: block;
+				.title-scrolling {
+					&.halfwidth{
+						position: relative;
+					}
+					position: relative;
+					overflow-x: visible;
+					right: 0;
+				}
+				height: 5rem;
+			}
+		}
+
+		.home-header {
+			.home-title {
+				display: none;
+			}
+		}
+
+		.archive-header {
+			padding-bottom: 0;
+		}
+
+		.page-title {
+			.title-section-two, .title-section-one {
+				display: none;
+			}
+		}
+		
+		#main h1 {
+			display: block;
+			white-space: normal;
+			font-size: 50px;
+			font-weight: 500;
+			line-height: 50px;
+			transform: none;
+			animation: none;
+			width: auto;
+			&::before, &::after {
+				content: '';
+			}
+		}
+
+		h2, .related h2 {
+			font-size: 50px;
+			font-weight: 500;
+			line-height: 30px;
+			margin-bottom: 1rem;
+			padding-bottom: 0;
+			border-bottom: none;
+			
+			page-break-after: avoid;
+		}
+
+		.global-page, .global-page.archive {
+
+			.archive-filters {
+				display: none;
+			}
+
+			.card-container {
+				display: grid;
+				grid-template-columns: repeat(auto-fit, minmax(210px, max-content));
+				grid-gap: 0;
+				padding-top: 1rem;
+				padding-left: 0;
+				padding-right: 0;
+				.card {
+					max-width: 200px;
+					margin-bottom: 0;
+					.card-thumbnail {
+						height: 200px;
+						width: 200px;
+						img {
+							height: 200px;
+							width: 200px;
+						}
+					}
+				}
+
+			}
+
+			.entry-content {
+				.addtoany_shortcode, .wp-block-embed-youtube {
+					display: none;
+				}
+				.wp-block-media-text figure {
+					padding: 0;
+				}
+			}
+		}
+		.related {
+			text-align: center;
+			.card-container {
+				flex-wrap: nowrap;
+				.card-thumbnail {
+					width: 200px;
+				}
+			}
+		}
+
+		// .wp-block-spacer {
+		// 	display: none;
+		// }
+
+		#footer {
+			page-break-before: always;
+		}
+
+		.social-networks-container, .back-top {
+			display: none;
+		}
+	}
+}

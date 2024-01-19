@@ -1,0 +1,97 @@
+/*:: ADMIN EDITOR ::*/
+/*******************************************************/
+
+@import 'abstracts/variables';
+
+#imera_title_style {
+
+	.title-style {
+		display: flex;
+		.style-color-1, .style-color-2, .style-color-3 {
+			height: 64px;
+			width: 64px;
+		}
+	}
+
+	.title-style-default {
+		display: none;
+	}
+	
+	.title-style-A {
+		.style-color-1 {
+			background-color: $color-pink;
+		}
+		.style-color-2 {
+			background-color: $color-yellow;
+		}
+		.style-color-3 path {
+			fill: #E7476C;
+		}
+	}
+	.title-style-B {
+		.style-color-1 {
+			background-color: $color-blue;
+		}
+		.style-color-2 {
+			background-color: $color-purple;
+		}
+		.style-color-3 path {
+			fill: $color-orange;
+		}
+	}
+	.title-style-C {
+		.style-color-1 {
+			background-color: $color-yellow;
+		}
+		.style-color-2 {
+			background-color: $color-cyan;
+		}
+		.style-color-3 path {
+			fill: $color-orange;
+		}
+	}
+	.title-style-D {
+		.style-color-1 {
+			background-color: $color-purple;
+		}
+		.style-color-2 {
+			background-color: #2E4929;
+		}
+		.style-color-3 path {
+			fill: $color-pink;
+		}
+	}
+	.title-style-E {
+		.style-color-1 {
+			background-color: $color-yellow;
+		}
+		.style-color-2 {
+			background-color: $color-cyan;
+		}
+		.style-color-3 path {
+			fill: #49356D;
+		}
+	}
+	.title-style-F {
+		.style-color-1 {
+			background-color: $color-cyan;
+		}
+		.style-color-2 {
+			background-color: $color-dark-orange;
+		}
+		.style-color-3 path {
+			fill: $color-pink;
+		}
+	}
+	.title-style-G {
+		.style-color-1 {
+			background-color: #009F2F;
+		}
+		.style-color-2 {
+			background-color: $color-dark-orange;
+		}
+		.style-color-3 path {
+			fill: $color-blue;
+		}
+	}
+}

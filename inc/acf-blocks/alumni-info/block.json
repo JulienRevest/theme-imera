@@ -1,0 +1,13 @@
+{
+    "name": "acf/alumni-info",
+    "title": "Information sur l'alumni",
+    "description": "Information et liens associées à l'alumni",
+    "category": "formatting",
+    "icon": "admin-plugins",
+    "keywords": ["alumni", "information", "lien", "wikipedia", "email", "e-mail"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "inc/acf-blocks/alumni-info/alumni-info.php"
+    },
+    "align": "full"
+}

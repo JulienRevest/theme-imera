@@ -1,0 +1,184 @@
+/*:: GLOBAL ::*/
+/*******************************************************/
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+
+	&.mobile-overflow {
+		overflow: hidden;
+	}
+}
+
+a {
+	transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+img {
+	height: auto;
+	max-width: 100%;
+}
+
+.screen-reader-text {
+	border: 0;
+	clip: rect(1px, 1px, 1px, 1px);
+	clip-path: inset(50%);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+	word-wrap: normal;
+}
+
+section {
+	padding: 60px 0;
+
+	&.toponly {
+		padding-bottom: 0;
+	}
+}
+
+
+/**_ GLOBAL PAGE _**/
+@mixin page-width {
+	margin: 0 auto;
+	max-width: 680px;
+
+	@media (min-width: $width-wide) {
+		max-width: calc( $width-wide + 64px );
+	}
+}
+
+.admin-bar main {
+	margin-top: 163px;
+}
+main {
+	margin-top: 143px;
+	border-top: 1px solid black;
+	overflow-x: hidden;
+}
+.global-page {
+	@include page-width();
+}
+
+/**_ PAGE WITH SIDEBAR _**/
+.page-aside {
+	@media (min-width: $width-large) {
+		display: flex;
+	}
+
+	.col-page {
+		@media (min-width: $width-large) {
+			flex-grow: 1;
+		}
+	}
+	
+	.col-aside {
+		margin-top: 30px;
+
+		@media (min-width: $width-large) {
+			flex-grow: 0;
+			flex-shrink: 0;
+			margin-left: 40px;
+			margin-top: 0;
+			width: 30%;
+		}
+	}
+}
+
+/** _BLOCK PATTERN BANNER MENU_ **/
+.banner-widget {
+	.wp-block-cover {
+		padding-bottom: 4rem;
+		
+		.wp-block-button {
+			display: flex;
+			align-items: center;
+
+			& > a.wp-block-button__link {
+				border: none;
+			}
+
+			.icon-chevron-next {
+				border: 1px solid $color-white;
+				height: 48px;
+				width: 48px;
+
+				&::before {
+					display: block;
+					padding-top: .9rem;
+				}
+			}
+		}
+	}
+	.wp-block-button {
+		display: flex;
+		align-items: center;
+
+		.icon-chevron-next {
+			border: 1px solid $color-black;
+			height: 48px;
+			width: 48px;
+
+			&::before {
+				display: block;
+				padding-top: .9rem;
+			}
+		}
+	}
+	& > h2 {
+		border-bottom: 1px solid black;
+		line-height: 100px;
+		margin-bottom: 4rem;
+		margin-left: 1rem;
+		margin-right: 1rem;
+		margin-top: 1rem;
+		padding-bottom: 20px;
+		width: auto;
+	}
+
+	@media (max-width: $width-medium) {
+		.resident-banner {
+			margin-left: -15px;
+			margin-right: -15px;
+		}
+	}
+
+}
+
+/**_ CHEVRON _**/
+.icon-chevron-down {
+	border: 1px $color-black solid;
+	margin-left: 1rem;
+	padding: 15px;
+	transition: border 200ms linear, color 200ms linear;
+}
+
+/**_ ERROR 404 _**/
+.header-404 {
+	padding-bottom: 4rem;
+}
+.page-404 {
+	text-align: center;
+	.back-home-button {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		.icon-chevron-next {
+			border: 1px solid $color-black;
+			height: 48px;
+			margin-left: 1rem;
+			width: 48px;
+	
+			&::before {
+				display: block;
+				padding-top: .9rem;
+			}
+		}
+	}
+}

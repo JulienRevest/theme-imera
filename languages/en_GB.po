@@ -1,0 +1,328 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Iméra\n"
+"POT-Creation-Date: 2023-05-10 11:31+0200\n"
+"PO-Revision-Date: 2023-05-10 11:32+0200\n"
+"Last-Translator: Julien <julien@e-labo.biz>\n"
+"Language-Team: Julien <julien@e-labo.biz>\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: lib\n"
+"X-Poedit-SearchPathExcluded-2: updater\n"
+
+#: 404.php:22
+msgid "Page 404"
+msgstr "Page Not Found"
+
+#: 404.php:34
+msgid "Oups, voilà qui n'était pas prévu."
+msgstr "Oops! something went wrong."
+
+#: 404.php:36
+msgid "Désolé, mais la page que vous recherchez est introuvable."
+msgstr "Sorry the page you are looking for could not be found."
+
+#: 404.php:41
+msgid "Retour à la page d’accueil"
+msgstr "Return to Homepage"
+
+#: archive-agenda.php:22
+msgid "Agenda"
+msgstr "Agenda"
+
+#: archive-agenda.php:41
+msgid "Voir les événements passés"
+msgstr "View past events"
+
+#: archive-agenda.php:50 archive-ressources.php:46 home.php:45 search.php:33
+#: template-agenda-past.php:47 template-alumnis.php:46
+#: template-residents.php:46
+msgid "Filtrer par"
+msgstr "Filter by"
+
+#: archive-agenda.php:53 archive-ressources.php:85 home.php:48
+#: template-agenda-past.php:81 template-alumnis.php:85
+#: template-residents.php:85
+msgid "Rechercher par nom, mots clés"
+msgstr "Search by name, keyword"
+
+#: archive-agenda.php:70 archive-candidatures.php:59 archive-ressources.php:106
+#: archive.php:43 home.php:64 template-agenda-past.php:132
+#: template-alumnis.php:159 template-residents.php:147
+msgid "Voir plus"
+msgstr "Load more"
+
+#: archive-agenda.php:74 archive-candidatures.php:63 archive-ressources.php:110
+#: home.php:68 template-agenda-past.php:138 template-alumnis.php:163
+#: template-residents.php:151
+msgid "Aucun résultat"
+msgstr "No results found"
+
+#: archive-candidatures.php:22
+msgid "Candidatures"
+msgstr "Applications"
+
+#: archive-ressources.php:22
+msgid "Imérathèque"
+msgstr "Media library"
+
+#: archive-ressources.php:48
+msgid "Type de média"
+msgstr "Media type"
+
+#: archive-ressources.php:66
+msgid "Catégories"
+msgstr "Categories"
+
+#: archive-ressources.php:115 home.php:21
+msgid "À la une"
+msgstr "News"
+
+#: archive-ressources.php:116
+msgid "Voir toutes les actualités"
+msgstr "Read all news"
+
+#: archive.php:22
+msgid "Archive"
+msgstr "Archives"
+
+#: footer.php:19
+msgid "Nous suivre"
+msgstr "Follow us"
+
+#: footer.php:28
+msgid "S'abonner à la newsletter"
+msgstr "Subscribe to our newsletter"
+
+#: footer.php:39
+msgid "Institut d'Études Avancées d'Aix-Marseille Université"
+msgstr "Institute for Advanced Study of Aix-Marseille University"
+
+#: footer.php:61
+msgid "© 2023 Institut d'Études Avancées d'Aix-Marseille Université"
+msgstr "© 2023 Institute for Advanced Study of Aix-Marseille University"
+
+#: footer.php:62
+msgid "Retour en haut"
+msgstr "Back to top"
+
+#: header.php:53
+msgid "Aller au premier menu"
+msgstr "Access the first menu"
+
+#: header.php:54
+msgid "Aller au second menu"
+msgstr "Access the second menu"
+
+#: header.php:55
+msgid "Aller au contenu"
+msgstr "Access content"
+
+#: header.php:56
+msgid "Aller à la recherche"
+msgstr "Access search"
+
+#: header.php:64
+msgid "Premier menu"
+msgstr "First menu"
+
+#: header.php:87
+msgid "Second menu"
+msgstr "Second menu"
+
+#: header.php:103 header.php:117
+msgid "Fermer"
+msgstr "Close"
+
+#: header.php:104
+msgid "Ouvrir le menu"
+msgstr "Open menu"
+
+#: header.php:111 header.php:112 search.php:26 search.php:27
+msgctxt "imera"
+msgid "Rechercher :"
+msgstr "Search:"
+
+#: header.php:112 search.php:27
+msgid "Rechercher sur Iméra"
+msgstr "Search on Iméra"
+
+#: inc/acf-blocks/alumni-info/alumni-info.php:5
+msgid "Disciplines : "
+msgstr "Disciplines: "
+
+#: inc/acf-blocks/alumni-info/alumni-info.php:28
+msgid "Année académique : "
+msgstr "Academic year: "
+
+#: inc/acf-blocks/alumni-info/alumni-info.php:38
+msgid "Poste et institution de provenance : "
+msgstr "Title and home institution: "
+
+#: inc/acf-blocks/alumni-info/alumni-info.php:48
+msgid "Type de résidence : "
+msgstr "Category of Fellowship: "
+
+#: inc/acf-blocks/alumni-info/alumni-info.php:58
+msgid "Chaire : "
+msgstr "Chair: "
+
+#: inc/acf-blocks/alumni-info/alumni-info.php:68
+msgid "Programme de recherche : "
+msgstr "Research program: "
+
+#: inc/acf-blocks/alumni-info/alumni-info.php:78
+msgid "Période de résidence : "
+msgstr "Residency length: "
+
+#: inc/acf-blocks/alumni-info/alumni-info.php:96
+msgid "E-mail : "
+msgstr "E-mail: "
+
+#: inc/acf-blocks/alumni-info/alumni-info.php:106
+msgid "Site web : "
+msgstr "Website: "
+
+#: inc/acf-blocks/alumni-info/alumni-info.php:116
+msgid "Wikipedia : "
+msgstr "Wikipedia: "
+
+#: inc/acf-blocks/post-infos/post-info.php:7
+msgid "Écrit par "
+msgstr "Written by "
+
+#: inc/acf-blocks/post-infos/post-info.php:17
+msgid "Publié le "
+msgstr "Published on "
+
+#: inc/back.php:109
+msgid "Curriculum Vitae"
+msgstr "Curriculum Vitae"
+
+#: inc/back.php:224
+msgid "Actuellement en résidence à l'Iméra"
+msgstr "Currently a resident fellow at Iméra"
+
+#: inc/back.php:253
+msgid "Comments"
+msgstr ""
+
+#: inc/cpt/alumni.php:92
+msgid "Nom du chercheur"
+msgstr "Name"
+
+#: inc/cpt/alumni.php:150 inc/cpt/alumni.php:152
+msgid "Projet de recherche"
+msgstr "Research project"
+
+#: inc/cpt/alumni.php:172 inc/cpt/alumni.php:174
+msgid "Résumé du projet"
+msgstr "Project summary"
+
+#: inc/cpt/alumni.php:194 inc/cpt/alumni.php:196
+msgid "Biographie"
+msgstr "Biography"
+
+#: search.php:22
+msgid "Résultats de recherche"
+msgstr "Search results"
+
+#: search.php:35
+msgid "Aucun filtre"
+msgstr "No filter"
+
+#: single-agenda.php:47 single.php:47
+msgid "Voir aussi"
+msgstr "View more"
+
+#: single-alumnis.php:46
+msgid "Découvrir d'autres chercheurs"
+msgstr "View other fellows"
+
+#: single-alumnis.php:132
+msgid "Documents associés"
+msgstr "Linked documents"
+
+#: template-agenda-past.php:38
+msgid "Voir l'agenda"
+msgstr "View agenda"
+
+#: template-agenda-past.php:49
+msgid "Année"
+msgstr "Year"
+
+#: template-alumnis.php:22
+msgid "Alumni"
+msgstr "Alumni"
+
+#: template-alumnis.php:48 template-residents.php:48
+msgid "Discipline"
+msgstr "Discipline"
+
+#: template-alumnis.php:66 template-residents.php:66
+msgid "Année académique"
+msgstr "Academic year"
+
+#: template-news.php:53
+msgid "Lire la suite"
+msgstr "Continue reading"
+
+#. Theme Name of the plugin/theme
+msgid "Iméra"
+msgstr "Iméra"
+
+#. Theme URI of the plugin/theme
+msgid "https://imera.e-labo.io"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Thème du site de Iméra"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "e-labo"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.e-labo.biz"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Actualités"
+msgstr "News"
+
+#. Template Name of the plugin/theme
+msgid "Page résidents"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Page événements passés"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Page alumni"
+msgstr ""
+
+#~ msgid "Tous les articles"
+#~ msgstr "All articles"
+
+#~ msgid "Résidents"
+#~ msgstr "Resident fellows"
+
+#, fuzzy
+#~| msgid "Candidatures"
+#~ msgid "andidatures"
+#~ msgstr "Applications"

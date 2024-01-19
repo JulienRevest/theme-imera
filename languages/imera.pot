@@ -1,0 +1,537 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Iméra\n"
+"POT-Creation-Date: 2023-04-07 15:37+0200\n"
+"PO-Revision-Date: 2023-04-07 15:37+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: 404.php:22
+msgid "Page 404"
+msgstr ""
+
+#: 404.php:34
+msgid "Oups, voilà qui n'était pas prévu."
+msgstr ""
+
+#: 404.php:36
+msgid "Désolé, mais la page que vous recherchez est introuvable."
+msgstr ""
+
+#: 404.php:41
+msgid "Retour à la page d’accueil"
+msgstr ""
+
+#: archive-agenda.php:22 page-programmes.php:70
+msgid "Agenda"
+msgstr ""
+
+#: archive-agenda.php:52 archive-alumnis.php:99 archive-candidatures.php:52
+#: archive-residents.php:99 archive-ressources.php:99 archive.php:42
+#: home.php:43
+msgid "Voir plus"
+msgstr ""
+
+#: archive-agenda.php:56 archive-alumnis.php:103 archive-candidatures.php:56
+#: archive-residents.php:103 archive-ressources.php:103 home.php:47
+msgid "Aucun résultat"
+msgstr ""
+
+#: archive-alumnis.php:22
+msgid "Alumnis"
+msgstr ""
+
+#: archive-alumnis.php:40 archive-residents.php:40 archive-ressources.php:40
+#: search.php:33
+msgid "Filtrer par"
+msgstr ""
+
+#: archive-alumnis.php:42 archive-residents.php:42
+msgid "Discipline"
+msgstr ""
+
+#: archive-alumnis.php:60 archive-residents.php:60
+msgid "Année académique"
+msgstr ""
+
+#: archive-alumnis.php:79 archive-residents.php:79 archive-ressources.php:79
+msgid "Rechercher par nom, mots clés"
+msgstr ""
+
+#: archive-alumnis.php:113 archive-residents.php:113 archive-ressources.php:108
+#: page-gouvernance-et-organigramme.php:47 page-programmes.php:47
+msgid "À la une"
+msgstr ""
+
+#: archive-alumnis.php:114 archive-residents.php:114 archive-ressources.php:109
+#: page-gouvernance-et-organigramme.php:48 page-programmes.php:48
+msgid "Voir toutes les actualités"
+msgstr ""
+
+#: archive-candidatures.php:22
+msgid "Candidatures"
+msgstr ""
+
+#: archive-residents.php:22
+msgid "Résidents"
+msgstr ""
+
+#: archive-ressources.php:22
+msgid "Imérathèque"
+msgstr ""
+
+#: archive-ressources.php:42
+msgid "Type de média"
+msgstr ""
+
+#: archive-ressources.php:60
+msgid "Catégories"
+msgstr ""
+
+#: archive.php:22
+msgid "Archive"
+msgstr ""
+
+#: footer.php:19
+msgid "Nous suivre"
+msgstr ""
+
+#: footer.php:27
+msgid "S'abonner à la newsletter"
+msgstr ""
+
+#: footer.php:38
+msgid "Institut d'Études Avancées d'Aix-Marseille Université"
+msgstr ""
+
+#: footer.php:47
+msgid "Préparer votre itinéraire"
+msgstr ""
+
+#: footer.php:64
+msgid "© 2022 Institut d'Études Avancées d'Aix-Marseille Université"
+msgstr ""
+
+#: footer.php:65
+msgid "Retour en haut"
+msgstr ""
+
+#: header.php:53
+msgid "Aller au premier menu"
+msgstr ""
+
+#: header.php:54
+msgid "Aller au second menu"
+msgstr ""
+
+#: header.php:55
+msgid "Aller au contenu"
+msgstr ""
+
+#: header.php:56
+msgid "Aller à la recherche"
+msgstr ""
+
+#: header.php:64
+msgid "Premier menu"
+msgstr ""
+
+#: header.php:87
+msgid "Second menu"
+msgstr ""
+
+#: header.php:103 header.php:117
+msgid "Fermer"
+msgstr ""
+
+#: header.php:104
+msgid "Ouvrir le menu"
+msgstr ""
+
+#: header.php:111 header.php:112 search.php:26 search.php:27
+msgctxt "imera"
+msgid "Rechercher :"
+msgstr ""
+
+#: header.php:112 search.php:27
+msgid "Rechercher sur Iméra"
+msgstr ""
+
+#. Template Name of the plugin/theme
+#: home.php:21
+msgid "Actualités"
+msgstr ""
+
+#: home.php:30
+msgid "Tous les articles"
+msgstr ""
+
+#: inc/acf-blocks/alumni-info/alumni-info.php:5
+msgid "Disciplines : "
+msgstr ""
+
+#: inc/acf-blocks/alumni-info/alumni-info.php:28
+msgid "Année académique : "
+msgstr ""
+
+#: inc/acf-blocks/alumni-info/alumni-info.php:38
+msgid "Poste et institution de provenance : "
+msgstr ""
+
+#: inc/acf-blocks/alumni-info/alumni-info.php:48
+msgid "Type de résidence : "
+msgstr ""
+
+#: inc/acf-blocks/alumni-info/alumni-info.php:58
+msgid "Période de résidence : "
+msgstr ""
+
+#: inc/acf-blocks/alumni-info/alumni-info.php:76
+msgid "E-mail : "
+msgstr ""
+
+#: inc/acf-blocks/alumni-info/alumni-info.php:86
+msgid "Site web : "
+msgstr ""
+
+#: inc/acf-blocks/alumni-info/alumni-info.php:96
+msgid "Wikipedia : "
+msgstr ""
+
+#: inc/back.php:109
+msgid "Curriculum Vitae"
+msgstr ""
+
+#: inc/back.php:207
+msgid "Comments"
+msgstr ""
+
+#: inc/cpt/alumni.php:91
+msgid "Nom de l'alumni"
+msgstr ""
+
+#: inc/cpt/alumni.php:139 inc/cpt/alumni.php:141 inc/cpt/residents.php:149
+#: inc/cpt/residents.php:151
+msgid "Projet de recherche"
+msgstr ""
+
+#: inc/cpt/alumni.php:161 inc/cpt/alumni.php:163 inc/cpt/residents.php:171
+#: inc/cpt/residents.php:173
+msgid "Résumé du projet"
+msgstr ""
+
+#: inc/cpt/alumni.php:183 inc/cpt/alumni.php:185 inc/cpt/residents.php:193
+#: inc/cpt/residents.php:195
+msgid "Biographie"
+msgstr ""
+
+#: inc/cpt/residents.php:91
+msgid "Nom du résident"
+msgstr ""
+
+#: lib/plugin-update-checker/Puc/v4p9/Plugin/Ui.php:54
+msgid "View details"
+msgstr ""
+
+#: lib/plugin-update-checker/Puc/v4p9/Plugin/Ui.php:77
+#, php-format
+msgid "More information about %s"
+msgstr ""
+
+#: lib/plugin-update-checker/Puc/v4p9/Plugin/Ui.php:128
+msgid "Check for updates"
+msgstr ""
+
+#: lib/plugin-update-checker/Puc/v4p9/Plugin/Ui.php:213
+#, php-format
+msgctxt "the plugin title"
+msgid "The %s plugin is up to date."
+msgstr ""
+
+#: lib/plugin-update-checker/Puc/v4p9/Plugin/Ui.php:215
+#, php-format
+msgctxt "the plugin title"
+msgid "A new version of the %s plugin is available."
+msgstr ""
+
+#: lib/plugin-update-checker/Puc/v4p9/Plugin/Ui.php:217
+#, php-format
+msgctxt "the plugin title"
+msgid "Could not determine if updates are available for %s."
+msgstr ""
+
+#: lib/plugin-update-checker/Puc/v4p9/Plugin/Ui.php:223
+#, php-format
+msgid "Unknown update checker status \"%s\""
+msgstr ""
+
+#: lib/plugin-update-checker/Puc/v4p9/Vcs/PluginUpdateChecker.php:98
+msgid "There is no changelog available."
+msgstr ""
+
+#: lib/wp-package-updater/class-wp-package-updater.php:204
+msgid "Sorry, you are not allowed to access this page."
+msgstr ""
+
+#: lib/wp-package-updater/class-wp-package-updater.php:251
+msgid "Theme License - "
+msgstr ""
+
+#: lib/wp-package-updater/class-wp-package-updater.php:406
+msgid ""
+"Unexpected Error! The query to retrieve the license data returned a "
+"malformed response."
+msgstr ""
+
+#: lib/wp-package-updater/class-wp-package-updater.php:424
+msgid "The license is already in use for this domain."
+msgstr ""
+
+#: lib/wp-package-updater/class-wp-package-updater.php:427
+msgid ""
+"The license has reached the maximum number of activations and cannot be "
+"activated for this domain."
+msgstr ""
+
+#: lib/wp-package-updater/class-wp-package-updater.php:433
+msgid "The license is already inactive for this domain."
+msgstr ""
+
+#. translators: the license expiry date
+#: lib/wp-package-updater/class-wp-package-updater.php:444
+#, php-format
+msgid "The license expired on %s and needs to be renewed to be updated."
+msgstr ""
+
+#: lib/wp-package-updater/class-wp-package-updater.php:448
+msgid "The license expired and needs to be renewed to be updated."
+msgstr ""
+
+#: lib/wp-package-updater/class-wp-package-updater.php:454
+msgid ""
+"The license is blocked and cannot be updated anymore. Please use another "
+"license key."
+msgstr ""
+
+#: lib/wp-package-updater/class-wp-package-updater.php:460
+msgid ""
+"The license has not been activated and its status is stil pending. Please "
+"try again or use another license key."
+msgstr ""
+
+#: lib/wp-package-updater/class-wp-package-updater.php:466
+msgid "The provided license key is invalid. Please use another license key."
+msgstr ""
+
+#: lib/wp-package-updater/class-wp-package-updater.php:469
+msgid ""
+"The provided license key does not appear to be valid. Please use another "
+"license key."
+msgstr ""
+
+#: lib/wp-package-updater/class-wp-package-updater.php:473
+msgid ""
+"An active license is required to update the plugin. Please provide a valid "
+"license key in Plugins > Installed Plugins."
+msgstr ""
+
+#: lib/wp-package-updater/class-wp-package-updater.php:475
+msgid ""
+"An active license is required to update the theme. Please provide a valid "
+"license key in Appearence > Theme License."
+msgstr ""
+
+#: lib/wp-package-updater/class-wp-package-updater.php:481
+msgid ""
+"An unexpected error has occured. Please try again. If the problem persists, "
+"please contact the author of the plugin."
+msgstr ""
+
+#: lib/wp-package-updater/class-wp-package-updater.php:483
+msgid ""
+"An unexpected error has occured. Please try again. If the problem persists, "
+"please contact the author of the theme."
+msgstr ""
+
+#: lib/wp-package-updater/templates/license-form.php:6
+msgid "Current license key:"
+msgstr ""
+
+#: lib/wp-package-updater/templates/license-form.php:9
+msgid "License key to change:"
+msgstr ""
+
+#: page-programmes.php:71
+msgid "Voir tous les évènements"
+msgstr ""
+
+#: search.php:22
+msgid "Résultats de recherche"
+msgstr ""
+
+#: search.php:35
+msgid "Aucun filtre"
+msgstr ""
+
+#: single-agenda.php:47 single.php:47
+msgid "Voir aussi"
+msgstr ""
+
+#: single-alumnis.php:49 single-residents.php:49
+msgid "Documents associés"
+msgstr ""
+
+#: single-alumnis.php:72 single-residents.php:72
+msgid "Même objet de recherche"
+msgstr ""
+
+#: template-news.php:52
+msgid "Lire la suite"
+msgstr ""
+
+#: updater/theme-updater.php:30
+msgid "Licence du thème"
+msgstr ""
+
+#: updater/theme-updater.php:31
+msgid "Entrer votre clé de licence du thème."
+msgstr ""
+
+#: updater/theme-updater.php:32
+msgid "Clé de licence"
+msgstr ""
+
+#: updater/theme-updater.php:33
+msgid "Action de licence"
+msgstr ""
+
+#: updater/theme-updater.php:34
+msgid "Désactiver la licence"
+msgstr ""
+
+#: updater/theme-updater.php:35
+msgid "Activer la licence"
+msgstr ""
+
+#: updater/theme-updater.php:36 updater/theme-updater.php:58
+msgid "Le status de la licence est inconnu."
+msgstr ""
+
+#: updater/theme-updater.php:37
+msgid "Renouveller?"
+msgstr ""
+
+#: updater/theme-updater.php:38
+msgid "illimité"
+msgstr ""
+
+#: updater/theme-updater.php:39
+msgid "La clé de licence est active."
+msgstr ""
+
+#. translators: the license expiration date
+#: updater/theme-updater.php:41
+#, php-format
+msgid "Expire dans %s."
+msgstr ""
+
+#: updater/theme-updater.php:42
+msgid "Licence à vie."
+msgstr ""
+
+#. translators: 1. the number of sites activated 2. the total number of activations allowed.
+#: updater/theme-updater.php:44
+#, php-format
+msgid "Vous avez %1$s / %2$s sites activés."
+msgstr ""
+
+#: updater/theme-updater.php:45
+msgid "Votre clé de licence a atteint la limite d'activations."
+msgstr ""
+
+#. translators: the license expiration date
+#: updater/theme-updater.php:47
+#, php-format
+msgid "Clé de licence expirée %s."
+msgstr ""
+
+#: updater/theme-updater.php:48
+msgid "La clé de licence a expiré."
+msgstr ""
+
+#. translators: the license expiration date
+#: updater/theme-updater.php:50
+#, php-format
+msgid "Clé de licence expirée le %s."
+msgstr ""
+
+#: updater/theme-updater.php:51
+msgid "Les clés de licence ne correspondent pas."
+msgstr ""
+
+#: updater/theme-updater.php:52
+msgid "Clé de licence inactive."
+msgstr ""
+
+#: updater/theme-updater.php:53
+msgid "Clé de licence désactivée."
+msgstr ""
+
+#: updater/theme-updater.php:54
+msgid "Licence invalide."
+msgstr ""
+
+#: updater/theme-updater.php:55
+msgid "Site inactif."
+msgstr ""
+
+#. translators: the theme name
+#: updater/theme-updater.php:57
+#, php-format
+msgid "Cette clé de licence semble invalide pour %s."
+msgstr ""
+
+#: updater/theme-updater.php:59
+msgid ""
+"Updating this theme will lose any customizations you have made. 'Cancel' to "
+"stop, 'OK' to update."
+msgstr ""
+
+#: updater/theme-updater.php:60
+msgid "An error occurred, please try again."
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Iméra"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://imera.e-labo.io"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Thème du site de Iméra"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "e-labo"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.e-labo.biz"
+msgstr ""

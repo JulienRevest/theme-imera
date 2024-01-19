@@ -1,0 +1,249 @@
+/*:: ARCHIVE AGENDA ::*/
+/*******************************************************/
+
+.link-page-events {
+    float: right;
+    margin-top: 3em;
+}
+
+@mixin card() {
+    .card {
+        margin-bottom: 4rem;
+        // margin-left:   8px;
+        // margin-right:  8px;
+        margin-top:    8px;
+        max-width: 448px;
+
+        @media (max-width: $width-medium) {
+            max-width: 380px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        h3 {
+            text-decoration: underline;
+            margin-top: 8px;
+        }
+
+        .card-thumbnail {
+            margin-bottom: 1rem;
+
+            @media (max-width: $width-medium) {
+                max-width: 380px;
+            }
+
+            img {
+                height: 448px;
+                object-fit: cover;
+                width: 448px;
+                @media (max-width: $width-medium) {
+                    height: auto;
+                    aspect-ratio: 1;
+                }
+            }
+        }
+
+        .card-event-info {
+            line-height: 1.5em;
+        }
+    }
+}
+
+.global-page {
+    max-width: 1440px;
+    @media (max-width: $width-medium) {
+        margin-bottom: 11px;
+    }
+    margin-bottom: 10rem;
+
+    & > h2 {
+        margin-bottom: 3rem;
+        margin-left: .5rem;
+        margin-right: .5rem;
+        margin-top: 1rem;
+        padding-bottom: 4rem;
+        border-bottom: 1px solid $color-black;
+    }
+
+    .no-posts {
+        text-align: center;
+        padding: 4rem;
+    }
+
+    &.archive {
+
+        a {
+            text-decoration: none;
+        }
+
+        .archive-filters {
+            align-items: center;
+            display: flex;
+            padding-top: 1rem;
+            padding-bottom: 3rem;
+            padding-left: 8px;
+            padding-right: 8px;
+
+            @media (max-width: $width-medium) {
+                flex-direction: column;
+
+                & > * {
+                    margin-bottom: .5rem;
+                }
+            }
+
+            & > span {
+                font-size: 24px;
+                font-weight: 500;
+                width: 13.5rem;
+                @media (max-width: $width-medium) {
+                    width: 100%;
+                }
+            }
+
+            select {
+                -webkit-appearance: none;
+                -moz-appearance: none;
+                background: transparent;
+                background-image: url("data:image/svg+xml;utf8,<svg width='10' height='6' viewBox='0 0 10 6' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M0.183058 0.183058C0.427136 -0.0610194 0.822864 -0.0610194 1.06694 0.183058L5 4.11612L8.93306 0.183058C9.17714 -0.0610194 9.57286 -0.0610194 9.81694 0.183058C10.061 0.427136 10.061 0.822864 9.81694 1.06694L5.44194 5.44194C5.19786 5.68602 4.80214 5.68602 4.55806 5.44194L0.183058 1.06694C-0.0610194 0.822864 -0.0610194 0.427136 0.183058 0.183058Z' fill='black'/></svg>");
+                background-repeat: no-repeat;
+                background-position-x: calc( 100% - 23px );
+                background-position-y: 25px;
+                font-size: 16px;
+                font-weight: 500;
+
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+
+            #archiveFilterMedia, #archiveFilterCategory, #archiveFilterDisciplin, #archiveFilterYear {
+                background-color: white;
+                color: black;
+                @media (min-width: $width-medium) {
+                    margin-left: 1rem;
+                }
+                height: 3.5rem;
+                max-width: 211px;
+                
+                @media (max-width: $width-medium) {
+                    max-width: initial;
+                }
+            }
+        }
+
+        .archive-searchbox {
+            @media (min-width: $width-medium) {
+                margin-left: 1rem;
+                margin-right: 1rem;
+            }
+            width: 100%;
+
+            .archive-search-button {
+                position: absolute;
+                height: 56px;
+                width: 3rem;
+                background: none;
+                border: none;
+            }
+
+            #archive-search {
+                height: 56px;
+                padding-left: 3rem;
+            }
+        }
+
+        .card-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(448px, max-content));
+            grid-gap: 16px;
+            padding-top: 1rem;
+            padding-left: 8px;
+            padding-right: 8px;
+
+            @include card();
+
+            @media (max-width: $width-medium) {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            .card-ressource-info {
+                display: flex;
+                flex-wrap: nowrap;
+
+                .card-ressource-icon {
+                    margin-right: .5rem;
+                }
+            }
+
+            .card-alumni-info {
+                line-height: 30px;
+                margin-top: 8px;
+            }
+        }
+
+        .imera-loadmore {
+            align-items: center;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            margin-top: 4rem;
+            margin-bottom: 10rem;
+            width: 100%;
+
+            .imera-loadmore-button {
+                display: block;
+                text-align: center;
+            }
+        }
+    }
+}
+
+.related {
+    max-width: 1440px;
+    margin: 0 auto;
+
+    & > h2 {
+        border-bottom: 1px solid $color-black;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        margin-top: 1rem;
+        margin-bottom: 4rem;
+        padding-bottom: 4rem;
+        text-align: center;
+    }
+
+    .card-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    
+        @include card();
+        .card {
+            margin-left:   8px;
+            margin-right:  8px;
+        }
+
+    }
+
+    .card-alumni-info {
+        line-height: 30px;
+        margin-top: 8px;
+    } 
+
+    .archive-link {
+        text-align: center;
+        display: block;
+        width: auto;
+        border-bottom: 1px solid black;
+        margin-bottom: 4rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        margin-top: 1rem;
+        padding-bottom: 20px;
+    }
+}

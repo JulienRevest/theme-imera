@@ -1,0 +1,175 @@
+/*:: FRONT PAGE ::*/
+/*******************************************************/
+
+.home .global-page > h1 {
+    @media (max-width: $width-medium) {
+        margin-top: 5rem;
+        margin-bottom: -10rem;
+    }
+}
+
+.home-header {
+
+    /**
+    * Fil d'arianne breadcrumb
+    */
+    nav[aria-label="Fil d'Ariane"], nav[aria-label="breadcrumb"] {
+        height: 3.5rem;
+        border-bottom: 1px solid $color-black;
+        .breadcrumb {
+            padding-bottom: 1.1rem;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            padding-top: 1.1rem;
+            max-width: $width-wide;
+            margin: 0 auto;
+            .breadcrumb-item.active {
+                color: $color-gray;
+            }
+
+            @media( min-width: $width-medium ) {
+                padding-left: 2rem;
+                padding-right: 2rem;
+            }
+        }
+        a {
+            text-decoration: none;
+        }
+    }
+
+    .home-title {
+        margin: 0 auto;
+        max-width: $width-wide;
+        &.has-title-style h1 {
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 1;
+            grid-row-end: 1;
+        }
+
+        .title-section-one, .title-section-two {
+            height: 360px;
+            width: 100%;
+            overflow: hidden;
+            position: initial;
+            svg {
+                height: 100%;
+                width: auto;
+            }
+        }
+
+        > .title-section-one:first-of-type {
+            display: flex;
+            flex-direction: column;
+            padding: 2rem;
+            justify-content: flex-end;
+
+            span:first-of-type {
+                margin-bottom: 2rem;
+            }
+
+            span:last-of-type {
+                max-width: 400px;
+                font-weight: 600;
+            }
+        }
+
+        @media (max-width: $width-medium) {
+            .title-section-one, .title-section-two {
+                height: 275px;
+            }
+
+            .title-section-one {
+                grid-row-start: 2;
+                grid-column-start: 1;
+            }
+            .title-section-two {
+                grid-row-start: 2;
+                grid-column-start: 2;
+            }
+        }
+
+        h1 {
+            overflow-x: visible;
+            white-space: pre;
+        }
+
+        .title-section-one {
+
+            &.title-style-A {
+                background-color: $color-pink;
+            }
+            &.title-style-B {
+                background-color: $color-blue;
+            }
+            &.title-style-C {
+                background-color: $color-yellow;
+            }
+            &.title-style-D {
+                background-color: $color-purple;
+            }
+            &.title-style-E {
+                background-color: $color-yellow;
+            }
+            &.title-style-F {
+                background-color: $color-pink;
+            }
+            &.title-style-G {
+                background-color: #009F2F;
+            }
+        }
+        .title-section-two {
+            &.title-style-A {
+                background-color: $color-yellow;
+                path {
+                    fill: #E7476C;
+                }
+            }
+            &.title-style-B {
+                background-color: $color-purple;
+                path {
+                    fill: $color-orange;
+                }
+            }
+            &.title-style-C {
+                background-color: $color-cyan;
+                path {
+                    fill: $color-orange;
+                }
+            }
+            &.title-style-D {
+                background-color: #2E4929;
+                path {
+                    fill: $color-pink;
+                }
+            }
+            &.title-style-E {
+                background-color: $color-cyan;
+                path {
+                    fill: #49356D;
+                }
+            }
+            &.title-style-F {
+                background-color: $color-cyan;
+                path {
+                    fill: $color-dark-orange;
+                }
+            }
+            &.title-style-G {
+                background-color: $color-dark-orange;
+                path {
+                    fill: $color-blue;
+                }
+            }
+        }
+    }
+}
+
+.entry-content {
+    padding-top: 0;
+}
+
+.home-intro {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}

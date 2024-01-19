@@ -1,0 +1,113 @@
+{
+	"version": 1,
+	"supports": {
+		"html": false,
+		"align": true
+	},
+	"styles": {
+		"color": {
+			"text": "#000"
+		},
+		"elements": {
+			"button": {
+				"border": {
+					"color": "transparent",
+					"width": "0px"
+				},
+				"color": {
+					"background": "none"
+				},
+				"typography": {
+					"textAlign": "left"
+				}
+			}
+		}
+	},
+	"settings": {
+		"typography": {
+			"lineHeight": false,
+			"customFontSize": false,
+			"letterSpacing": false,
+			"fontWeight": false
+		},
+		"color": {
+			"custom": false,
+			"palette": [
+				{
+					"name": "Noir",
+					"slug": "black",
+					"color": "#000000"
+				},
+				{
+					"name": "Blanc",
+					"slug": "white",
+					"color": "#ffffff"
+				},
+				{
+					"name": "Rose",
+					"slug": "pink",
+					"color": "#EF91B8"
+				},
+                {
+                    "name": "Gris foncé",
+                    "slug": "strong-gray",
+                    "color": "#666"
+                },
+                {
+                    "name": "Gris clair",
+                    "slug": "light-gray",
+                    "color": "#D8D8D8"
+                },
+                {
+                    "name": "Rouge",
+                    "slug": "red",
+                    "color": "#E2381E"
+                },
+                {
+                    "name": "Jaune",
+                    "slug": "yellow",
+                    "color": "#F4D300"
+                },
+                {
+                    "name": "Fuchsia",
+                    "slug": "fuchsia",
+                    "color": "#E7476C"
+                },
+                {
+                    "name": "Cyan",
+                    "slug": "cyan",
+                    "color": "#86CFE5"
+                },
+                {
+                    "name": "Bleu",
+                    "slug": "blue",
+                    "color": "#003C8F"
+                },
+                {
+                    "name": "Violet",
+                    "slug": "purple",
+                    "color": "#98327F"
+                },
+                {
+                    "name": "Orange",
+                    "slug": "orange",
+                    "color": "#E85811"
+                },
+                {
+                    "name": "Vert",
+                    "slug": "green",
+                    "color": "#009F2F"
+                },
+                {
+                    "name": "Violet foncé",
+                    "slug": "darkpurple",
+                    "color": "#49356D"
+                }
+			]
+		},
+		"layout": {
+			"contentSize": "680px",
+			"wideSize": "1140px"
+		}
+	}	
+}

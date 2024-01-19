@@ -1,0 +1,42 @@
+/*:: PAGINATION ::*/
+/*******************************************************/
+
+.pagination {
+	margin: 30px 0 60px;
+	text-align: center;
+
+	.page-numbers {
+		li {
+			display: inline-block;
+
+			.current {
+				border-radius: 4px;
+				background: rgba($color-black, 0.8);
+				border: 1px solid rgba($color-black, 0.8);
+				color: $color-white;
+				margin-right: 6px;
+				padding: 8px 12px;
+			}
+			
+			a {
+				border-radius: 4px;
+				background: $color-white;
+				border: 1px solid rgba($color-black, 0.8);
+				margin-right: 6px;
+				padding: 8px 12px;
+
+				&:hover {
+					background: rgba($color-black, 0.8);
+					border: 1px solid rgba($color-black, 0.8);
+					color: $color-white;
+				}
+
+				&.prev {
+				}
+
+				&.next {
+				}
+			}
+		}
+	}
+}

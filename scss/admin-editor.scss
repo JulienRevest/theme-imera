@@ -1,0 +1,62 @@
+/*:: ADMIN EDITOR ::*/
+/*******************************************************/
+
+@import 'abstracts/variables';
+@import 'components/_gutenberg.scss';
+@import 'base/typography';
+
+body {
+	font-family: 'Inter', Arial, Helvetica, sans-serif;
+	line-height: 1.4em;
+	font-size: 14px;
+}
+
+/**
+* Correction hauteur des titres dans l'editeur
+*/
+h1 {
+	line-height: 70px;
+	font-size: 50px;
+	font-weight: 500;
+}
+
+.alignwide {
+	margin-left: auto;
+	margin-right: auto;
+	// width: $width-wide;
+}
+
+.wp-block {
+	max-width: $width-large;
+
+	/**
+	* Centrage des titres H dans l'éditeur
+	*/
+	&.wp-block-heading.alignfull{
+		margin-left: auto;
+		margin-right: auto;
+		width: $width-wide;
+	}
+	
+	&[data-align="full"] {
+		margin: 0;
+
+		.wp-block-group__inner-container {
+			margin: 0 auto;
+			max-width: 1200px;
+		}
+	}
+
+	/**
+	* Bloc auteur ACF
+	*/
+	.post-info {
+		display: flex;
+		justify-content: center;
+		padding: 1rem;
+		.post-author, .post-date {
+			padding-left: .5rem;
+			padding-right: .5rem;
+		}
+	}
+}
